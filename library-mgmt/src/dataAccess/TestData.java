@@ -8,16 +8,13 @@ import java.util.List;
 
 import model.Book;
 import model.CheckoutRecord;
-import Services.BookService;
-import Services.PeriodicalService;
-import Services.UserService;
-import model.Book;
-import model.CheckoutRecord;
+import services.BookService;
+import services.PeriodicalService;
+import services.UserService;
 import model.CheckoutRecordEntry;
 import model.LibraryMember;
 import model.Address;
 import model.Author;
-import model.LibraryMember;
 import model.Periodical;
 
 public class TestData {
@@ -32,7 +29,7 @@ public class TestData {
 			add(new Address("5001 Venice Dr.", "Los Angeles", "CA", "93736"));
 			add(new Address("1435 Channing Ave", "Palo Alto", "CA", "94301"));
 			add(new Address("42 Dogwood Dr.", "Fairfield", "IA", "52556"));
-			add(new Address("501 Central", "Mountain View", "CA", "94707"));
+			add(new Address("501 Cesntral", "Mountain View", "CA", "94707"));
 
 		}
 	};

@@ -1,11 +1,8 @@
 package controller;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
 
-import Services.UserService;
-import javafx.event.ActionEvent;
+import services.UserService;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -15,13 +12,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import jfx.messagebox.MessageBox;
-import model.Book;
 import model.CheckoutRecord;
-import model.LendableCopy;
 import model.LibraryMember;
-import model.Periodical;
-import dataAccess.DataAccessFacade;
-import dataAccess.DataAccessFacade.Pair;
 
 public class FXMLCheckMemberController implements FXMLController{
 	protected static boolean hasInstance = false;

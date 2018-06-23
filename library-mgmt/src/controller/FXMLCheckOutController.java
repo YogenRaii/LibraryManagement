@@ -3,14 +3,11 @@ package controller;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import java.util.Arrays;
 
-import Services.BookService;
-import Services.PeriodicalService;
-import Services.UserService;
+import services.BookService;
+import services.PeriodicalService;
+import services.UserService;
 import model.Book;
-import model.CheckoutRecord;
-import model.CheckoutRecordEntry;
 import model.LendableCopy;
 import model.LibraryMember;
 import model.Periodical;

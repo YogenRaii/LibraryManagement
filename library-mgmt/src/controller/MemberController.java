@@ -1,6 +1,5 @@
 package controller;
 import javafx.beans.binding.Bindings;
-import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
@@ -19,7 +18,6 @@ import javafx.scene.control.TableColumn.CellEditEvent;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
@@ -31,14 +29,12 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import jfx.messagebox.MessageBox;
 import model.Address;
-import model.CheckoutRecord;
 import model.CheckoutRecordEntry;
 import model.LendableCopy;
 import model.LibraryMember;
-import Services.UserService;
+import services.UserService;
 
 import java.time.LocalDate;
-import java.time.MonthDay;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 

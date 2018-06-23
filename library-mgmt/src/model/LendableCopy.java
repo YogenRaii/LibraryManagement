@@ -3,8 +3,8 @@ package model;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-import Services.CopyService;
-import Services.UserService;
+import services.CopyService;
+import services.UserService;
 
 public class LendableCopy implements Serializable {
 	private Publication publication;

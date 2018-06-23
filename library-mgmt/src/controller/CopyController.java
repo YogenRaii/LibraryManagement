@@ -8,8 +8,8 @@ import java.util.HashMap;
 
 
 
-import Services.BookService;
-import Services.PeriodicalService;
+import services.BookService;
+import services.PeriodicalService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -21,15 +21,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import javafx.stage.Modality;
-import javafx.stage.Window;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.Menu;
 import jfx.messagebox.MessageBox;
 import model.Book;
 import model.Periodical;
-import dataAccess.DataAccess;
-import dataAccess.DataAccessFacade;
 import dataAccess.DataAccessFacade.Pair;
 import dataAccess.StorageType;
 

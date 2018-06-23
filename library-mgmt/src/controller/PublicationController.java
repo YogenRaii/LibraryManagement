@@ -35,8 +35,8 @@ package controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import Services.BookService;
-import Services.PeriodicalService;
+import services.BookService;
+import services.PeriodicalService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -52,8 +52,6 @@ import jfx.messagebox.MessageBox;
 import model.Author;
 import model.Book;
 import model.Periodical;
-import dataAccess.DataAccess;
-import dataAccess.DataAccessFacade;
 import dataAccess.StorageType;
  
 public class PublicationController extends BaseController{

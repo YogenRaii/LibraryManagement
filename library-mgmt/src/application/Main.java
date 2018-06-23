@@ -1,12 +1,8 @@
 package application;
-	
-import java.time.LocalDate;
 
 import controller.FXMLCheckOutController;
 import controller.FXMLController;
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 

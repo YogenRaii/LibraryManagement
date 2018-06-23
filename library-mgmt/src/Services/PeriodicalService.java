@@ -1,4 +1,4 @@
-package Services;
+package services;
 
 import dataAccess.DataAccessFacade;
 import dataAccess.StorageType;
