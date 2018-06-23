@@ -1,4 +1,4 @@
-package javadb;
+package testings;
 
 
 import java.sql.Connection;  

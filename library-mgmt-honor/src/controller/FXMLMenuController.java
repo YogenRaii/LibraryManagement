@@ -1,25 +1,17 @@
 package controller;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 
-import Services.BookService;
-import Services.PeriodicalService;
+import services.BookService;
+import services.PeriodicalService;
 import model.Book;
-import model.CheckoutRecord;
-import model.CheckoutRecordEntry;
 import model.LendableCopy;
-import model.LibraryMember;
 import model.Periodical;
-import model.Publication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
-import dataAccess.DataAccess;
-import dataAccess.DataAccessFacade;
 import dataAccess.DataAccessFacade.Pair;
 
 public class FXMLMenuController {

@@ -1,15 +1,4 @@
-package Services;
-
-import dataAccess.CopyOfDataAccess;
-import dataAccess.CopyOfDataAccessFacade;
-import dataAccess.DataAccessFacade;
-import dataAccess.StorageType;
-import dataAccess.DataAccessFacade.Pair;
-import model.Author;
-import model.Periodical;
-
-import java.util.HashMap;
-import java.util.List;
+package services;
 
 /**
  * Created by rajkumar on 7/9/2015.

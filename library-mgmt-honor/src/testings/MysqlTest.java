@@ -1,12 +1,9 @@
-package javadb;
+package testings;
 
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Connection;
-import java.sql.Statement;
- 
- 
+
+
 public class MysqlTest {
     public static void main(String[] args) throws Exception {
     	DBManager jdbc = new DBManager();

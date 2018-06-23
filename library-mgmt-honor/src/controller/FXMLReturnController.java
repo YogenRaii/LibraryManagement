@@ -1,21 +1,16 @@
 package controller;
 
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.HashMap;
-import java.util.List;
 
-import Services.BookService;
-import Services.PeriodicalService;
-import Services.UserService;
-import javafx.event.ActionEvent;
+import services.BookService;
+import services.PeriodicalService;
+import services.UserService;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import jfx.messagebox.MessageBox;
 import model.Book;

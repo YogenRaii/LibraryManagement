@@ -35,27 +35,22 @@ package controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import Services.BookService;
-import Services.PeriodicalService;
+import services.PeriodicalService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.stage.Stage;
 import jfx.messagebox.MessageBox;
 import model.Author;
 import model.Book;
 import model.Periodical;
 import dataAccess.CopyOfDataAccess;
 import dataAccess.CopyOfDataAccessFacade;
-import dataAccess.DataAccess;
-import dataAccess.DataAccessFacade;
 import dataAccess.StorageType;
  
 public class PublicationController extends BaseController{

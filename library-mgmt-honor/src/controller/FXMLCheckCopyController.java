@@ -3,10 +3,7 @@ package controller;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.HashMap;
-import java.util.List;
 
-import Services.BookService;
-import Services.PeriodicalService;
 import model.Book;
 import model.LendableCopy;
 import model.Periodical;

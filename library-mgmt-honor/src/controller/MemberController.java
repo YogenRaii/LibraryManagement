@@ -1,6 +1,6 @@
 package controller;
 
-import Services.UserService;
+import services.UserService;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

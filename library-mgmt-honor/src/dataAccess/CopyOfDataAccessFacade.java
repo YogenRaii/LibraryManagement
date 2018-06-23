@@ -1,11 +1,4 @@
 package dataAccess;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -13,11 +6,10 @@ import java.util.HashMap;
 import java.util.List;
 
 import dataAccess.DataAccessFacade.Pair;
-import javadb.DBManager;
+import testings.DBManager;
 import model.Address;
 import model.Author;
 import model.Book;
-import model.LendableCopy;
 import model.LibraryMember;
 import model.Periodical;
 
